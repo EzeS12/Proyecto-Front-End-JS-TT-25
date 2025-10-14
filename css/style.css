@@ -29,23 +29,12 @@ body {
 
 /*  elementods del Header   */
 
-
-.header, footer{
-    background-color: rgb(212, 90, 181);
-    color: beige;
-    width: 100%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .header__logo{
 font-size: 3rem;
 font-weight: bold;
-
-padding: 1rem;
 margin-left: 2rem;
+padding: 1rem;
+
 
 }
 
@@ -163,7 +152,6 @@ p{
 
 
 /* elementos del Fotter */
-
 
 
 .footer__nav ul {
