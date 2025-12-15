@@ -1,7 +1,7 @@
 [
 {"ID" : 1,  "nombre": "Juego de cubiertos", "precio": 2300,"img": "img/cubiertos.jpg"},
 
-{"ID" : 2,  "nombre": "Bandejas", "precio": 2300, "img": "img/bandeja.jpg" },
+{"ID" : 2,  "nombre": "Bandejas", "precio": 2300, "img": "img/Olla 2.jpg"},
 
 {"ID" : 3,  "nombre": "Ollas", "precio": 2300,"img": "img/Olla 2.jpg" }
 
