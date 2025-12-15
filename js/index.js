@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const carrito = obtenerCarrito ();
     actualizarContador(carrito);
 
-    fetch("./data/productos.json").
-    then(res => {
+    fetch("../data/productos.json")
+    .then(res => {
         if(!res.ok) {
-            throw new Error('Error HTTP status: ${res.status}'); 
+            throw new Error(`Error HTTP status: ${res.status}`); 
         }
         
     return res.json();
