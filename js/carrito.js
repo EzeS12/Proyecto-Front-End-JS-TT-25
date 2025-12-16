@@ -1,4 +1,4 @@
-import { agregarAlCarrito } from "./funciones.Carrito";
+import { agregarAlCarrito } from "./funcionesCarrito";
 import { obtenerCarrito } from "./storage";
 import { actualizarContador } from "./UI";
 
@@ -12,7 +12,7 @@ const renderizarCarrito = () => {
 
     contenedor.innerHTML = ""
     divAcciones.innerHTML = ""
-    
+
 
 }
 
