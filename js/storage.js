@@ -6,10 +6,10 @@ export const guardarCarrito  = (carrito) => {
 }
 
 export const obtenerCarrito  = () => {
-return JSON.parse (localStorage.getItem(KEY)) || []
-}
+return JSON.parse (localStorage.getItem(KEY)) || [];
+};
 
 export const vaciarCarritoStorage  = () => {
-localStorage.removeItem(KEY)
-}
+localStorage.removeItem(KEY);
+};
 

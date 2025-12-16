@@ -1,6 +1,6 @@
-import { agregarAlCarrito } from "./funciones.Carrito.js";
+import { agregarAlCarrito } from "./funcionesCarrito.js";
 import { obtenerCarrito } from "./storage.js";
-import { actualizarContador, mostrarMensaje } from "./UI.js";
+import { actualizarContador} from "./UI.js";
 
 
 
@@ -38,7 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
             boton.textContent = "Agregar al carrito"
 
             boton.addEventListener("click", ()  => {
-             agregarAlCarrito(producto)
+             console.log("CLICK OK", producto);
+             agregarAlCarrito(producto);
             })
 
 
